@@ -178,35 +178,35 @@ namespace EncryptedNotePad
             richTextBox1.SelectedText = DateTime.Now.ToString();
         }
 
-        private void cut2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Cut();
-        }
+        //private void cut2ToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.Cut();
+        //}
 
-        private void cut2ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Cut();
-        }
+        //private void cut2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.Cut();
+        //}
 
-        private void delete2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            richTextBox1.SelectedText = string.Empty;
-        }
+        //private void delete2ToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.SelectedText = string.Empty;
+        //}
 
-        private void delete2ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.SelectedText = string.Empty;
-        }
+        //private void delete2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.SelectedText = string.Empty;
+        //}
 
-        private void select2AllToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            richTextBox1.SelectAll();
-        }
+        //private void select2AllToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.SelectAll();
+        //}
 
-        private void select2AllToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.SelectAll();
-        }
+        //private void select2AllToolStripMenuItem1_Click(object sender, EventArgs e)
+        //{
+        //    richTextBox1.SelectAll();
+        //}
 
 
 

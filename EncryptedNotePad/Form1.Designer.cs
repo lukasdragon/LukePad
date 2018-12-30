@@ -74,7 +74,6 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.AutoWordSelection = true;
             this.richTextBox1.ContextMenuStrip = this.TextRightClick;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.EnableAutoDragDrop = true;
