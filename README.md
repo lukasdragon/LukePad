@@ -10,9 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 2. Clone the repo
 
 ```PS C:\Code> git clone https://github.com/lukasdragon/LukePad.git```
+
 3. Restore Nuget Packages
 
 ```nuget restore```
+
 4. Build the Solution
 
 ```devenv EncryptedNotePad.sln /Build "Release|x86"```
