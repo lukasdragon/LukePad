@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```nuget restore```
 4. Build the Solution
 
-```devenv EncryptedNotePad.sln /Build "Release|x86"
+```devenv EncryptedNotePad.sln /Build "Release|x86"```
 
 ### Prerequisites
 
