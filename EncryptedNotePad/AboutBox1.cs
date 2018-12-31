@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace EncryptedNotePad
 {
-    internal partial class AboutBox1 : Form
+    internal partial class AboutBox1 : ComponentFactory.Krypton.Toolkit.KryptonForm
     {
         public AboutBox1()
         {
