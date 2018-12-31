@@ -68,5 +68,15 @@ namespace EncryptedNotePad {
                 return ResourceManager.GetStream("Chiptunes", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ComponentFactory_Krypton_Toolkit {
+            get {
+                object obj = ResourceManager.GetObject("ComponentFactory_Krypton_Toolkit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

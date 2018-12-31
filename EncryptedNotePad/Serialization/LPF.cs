@@ -11,9 +11,7 @@ namespace EncryptedNotePad.Serialization
     {
         public System.Drawing.Font Font;
         public System.Drawing.Color Color;
-        public string Content;
-        public string verificationString = "You can't have this";
-        public readonly string protocolVersion = "1.0.0";
-
+        public Byte[] Content;
+        public Byte[] verificationString = Guid.NewGuid().ToByteArray();    
     }
 }
